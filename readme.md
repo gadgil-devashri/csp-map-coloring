@@ -1,6 +1,22 @@
-Prerequisite:
-Download the code folder from canvas
-Unzip the code folder and store it on C Drive folder ONLY (otherwise update the path in code on line 405 and 424. Search for path variable.
+# Solving Constraint Satisfaction Problem of Map Coloring 
+
+## Contributors 
+* Varad Deshpande
+* Devashri Gadgil
+* Akshay Bheda
+
+## Problem statement 
+
+![image](https://user-images.githubusercontent.com/25425769/147605145-9fea1cd1-ba50-46ce-938a-1f1a4b9a4d61.png)
+
+### Algorithms used 
+* Backtracking 
+* Forward Checking
+* Forward Checking with Singleton propogation 
+
+## Prerequisite:
+* Download/ clone the repository 
+* Unzip the code folder and store it on C Drive folder ONLY (otherwise update the path in code on line 405 and 424. Search for path variable.
 
 You can use either python 3.9 or 3.10.
 If you are using 3.9, use the files named as cp39 when installing the dependencies
@@ -16,7 +32,7 @@ Steps to run on a windows machine
 a. Unzip dependencies folder from main code folder 
 b. Go to the folder where the binaries are extracted.
 c. Open cmd as administrator from the extracted folder
-d. The following order of installation using pip install is necessary. Be careful with the filename. It should work if the filename is correct: (Tip: Type ìpip installî followed by a space and type the first two letters of the binary and press Tab. (e.g. pip install gd(press Tab))
+d. The following order of installation using pip install is necessary. Be careful with the filename. It should work if the filename is correct: (Tip: Type ‚Äúpip install‚Äù followed by a space and type the first two letters of the binary and press Tab. (e.g. pip install gd(press Tab))
 pip install GDAL-3.3.3-cp39-cp39-win_amd64.whl
 pip install pyproj-3.3.0-cp39-cp39-win_amd64.whl
 pip install Fiona-1.8.20-cp39-cp39-win_amd64.whl
